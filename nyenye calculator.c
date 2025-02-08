@@ -13,8 +13,6 @@ int main ()
 	printf("Enter the second value: ");
 	scanf("%f", &num2);
 	
-
-	{
 	switch(op)
 	{
 		case '+': 
@@ -30,7 +28,7 @@ int main ()
 			result = num1 * num2;
 			break;
 	}
-		}
+	
 	printf("The result of %f and %f is %f", num1, num2, result);
 	
 	return 0;
