@@ -30,6 +30,7 @@ int main ()
 	}
 	
 	printf("The result of %f and %f is %f", num1, num2, result);
+	printf("Thank you!");
 	
 	return 0;
 }
